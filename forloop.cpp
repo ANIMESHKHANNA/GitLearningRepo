@@ -1,16 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
-    #endif
-int n;
-cin>>n;
-int sum=0;
-for(int counter=1;counter<=n;counter++){
-    sum=sum+counter;
+for(int i=0;i<=5;i++){
+    cout<<"hi"<<endl;
 }
-cout<<sum<<endl;
+cout<<"forloop understood"<<endl;
+cout<<"while loop remaine";
     return 0;
 }
